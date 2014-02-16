@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <string.h>
+#include "library.h"
 char s[1000];
 void split(char c[])
 {
     int n,i;
     n=strlen(c);
-    for(i=1;i<=n;i++);
+    for(i=1;i<=n;i++)
+    {
+        func=define(s,i);
+    }
 }
 int main()
 {
