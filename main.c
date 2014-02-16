@@ -1,8 +1,11 @@
-#incluce <stdio.h>
+#include <stdio.h>
+#include <string.h>
 char s[1000];
 void split(char c[])
 {
-
+    int n,i;
+    n=strlen(c);
+    for(i=1;i<=n;i++);
 }
 int main()
 {
